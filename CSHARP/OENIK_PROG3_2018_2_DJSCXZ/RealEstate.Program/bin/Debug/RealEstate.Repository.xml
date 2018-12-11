@@ -1,0 +1,174 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RealEstate.Repository</name>
+    </assembly>
+    <members>
+        <member name="T:RealEstate.Repository.IngatlanokRepo">
+            <summary>
+            Real estate repo class
+            </summary>
+        </member>
+        <member name="M:RealEstate.Repository.IngatlanokRepo.Create(RealEstate.Data.Ingatlan)">
+            <summary>
+            creating new real estate
+            </summary>
+            <param name="obj">Ingatlan object</param>
+        </member>
+        <member name="M:RealEstate.Repository.IngatlanokRepo.Delete(RealEstate.Data.Ingatlan)">
+            <summary>
+            deleting real estate
+            </summary>
+            <param name="obj">Ingatlan object</param>
+        </member>
+        <member name="M:RealEstate.Repository.IngatlanokRepo.Dispose">
+            <summary>
+            disposing realestateModel
+            </summary>
+        </member>
+        <member name="M:RealEstate.Repository.IngatlanokRepo.ReadAll">
+            <summary>
+            reading all real estates
+            </summary>
+            <returns>all realestates</returns>
+        </member>
+        <member name="M:RealEstate.Repository.IngatlanokRepo.Update(RealEstate.Data.Ingatlan)">
+            <summary>
+            creating new real estate
+            </summary>
+            <param name="uj">Ingatlan object</param>
+        </member>
+        <member name="T:RealEstate.Repository.IRepository`1">
+            <summary>
+            basic CRUD operations defined
+            </summary>
+            <typeparam name="T">general param</typeparam>
+        </member>
+        <member name="M:RealEstate.Repository.IRepository`1.Create(`0)">
+            <summary>
+            creating new obj
+            </summary>
+            <param name="obj">T obj</param>
+        </member>
+        <member name="M:RealEstate.Repository.IRepository`1.ReadAll">
+            <summary>
+            reading all
+            </summary>
+            <returns>returns all</returns>
+        </member>
+        <member name="M:RealEstate.Repository.IRepository`1.Update(`0)">
+            <summary>
+            updating
+            </summary>
+            <param name="uj">T obj</param>
+        </member>
+        <member name="M:RealEstate.Repository.IRepository`1.Delete(`0)">
+            <summary>
+            deleting
+            </summary>
+            <param name="obj">T obj</param>
+        </member>
+        <member name="T:RealEstate.Repository.SzerzodesekRepo">
+            <summary>
+            agreements repo
+            </summary>
+        </member>
+        <member name="M:RealEstate.Repository.SzerzodesekRepo.Create(RealEstate.Data.Szerzodes)">
+            <summary>
+            creates agreement
+            </summary>
+            <param name="obj">agreement obj</param>
+        </member>
+        <member name="M:RealEstate.Repository.SzerzodesekRepo.Delete(RealEstate.Data.Szerzodes)">
+            <summary>
+            deletes agreement
+            </summary>
+            <param name="obj">agreement obj</param>
+        </member>
+        <member name="M:RealEstate.Repository.SzerzodesekRepo.Dispose">
+            <summary>
+            disposing realestateModel
+            </summary>
+        </member>
+        <member name="M:RealEstate.Repository.SzerzodesekRepo.ReadAll">
+            <summary>
+            reads all agreements
+            </summary>
+            <returns>agreements</returns>
+        </member>
+        <member name="M:RealEstate.Repository.SzerzodesekRepo.Update(RealEstate.Data.Szerzodes)">
+            <summary>
+            updates agreement
+            </summary>
+            <param name="uj">agreement obj</param>
+        </member>
+        <member name="T:RealEstate.Repository.TulajdonosokRepo">
+            <summary>
+            Tulajdonosok Entity's repository.
+            </summary>
+        </member>
+        <member name="M:RealEstate.Repository.TulajdonosokRepo.Create(RealEstate.Data.Tulajdonos)">
+            <summary>
+            creates owner
+            </summary>
+            <param name="obj">owner obj</param>
+        </member>
+        <member name="M:RealEstate.Repository.TulajdonosokRepo.Delete(RealEstate.Data.Tulajdonos)">
+            <summary>
+            removes owner
+            </summary>
+            <param name="obj">owner obj</param>
+        </member>
+        <member name="M:RealEstate.Repository.TulajdonosokRepo.Dispose">
+            <summary>
+            disposing realestateModel
+            </summary>
+        </member>
+        <member name="M:RealEstate.Repository.TulajdonosokRepo.ReadAll">
+            <summary>
+            returns all owners
+            </summary>
+            <returns>owners</returns>
+        </member>
+        <member name="M:RealEstate.Repository.TulajdonosokRepo.Update(RealEstate.Data.Tulajdonos)">
+            <summary>
+            updates owner
+            </summary>
+            <param name="uj">owner obj</param>
+        </member>
+        <member name="T:RealEstate.Repository.UgyfelekRepo">
+            <summary>
+            clients repository
+            </summary>
+        </member>
+        <member name="M:RealEstate.Repository.UgyfelekRepo.Create(RealEstate.Data.Ugyfel)">
+            <summary>
+            creates client
+            </summary>
+            <param name="obj">client obj</param>
+        </member>
+        <member name="M:RealEstate.Repository.UgyfelekRepo.Delete(RealEstate.Data.Ugyfel)">
+            <summary>
+            deletes client
+            </summary>
+            <param name="obj">client obj</param>
+        </member>
+        <member name="M:RealEstate.Repository.UgyfelekRepo.Dispose">
+            <summary>
+            disposing realestateModel
+            </summary>
+        </member>
+        <member name="M:RealEstate.Repository.UgyfelekRepo.ReadAll">
+            <summary>
+            reads all clients client
+            </summary>
+            <returns>all clients</returns>
+        </member>
+        <member name="M:RealEstate.Repository.UgyfelekRepo.Update(RealEstate.Data.Ugyfel)">
+            <summary>
+            updates client
+            </summary>
+            <param name="uj">client obj</param>
+        </member>
+    </members>
+</doc>

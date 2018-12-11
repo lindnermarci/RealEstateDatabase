@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RealEstate.Logic.Tests</name>
+    </assembly>
+    <members>
+        <member name="T:RealEstate.Logic.Tests.IngatlanTest">
+            <summary>
+            Tests RealEstate repo
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.IngatlanTest.Setup">
+            <summary>
+            setting up test
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.IngatlanTest.WhenReadingIngatlanok_AllOfThemReturned">
+            <summary>
+            WhenReadingIngatlanok_AllOfThemReturned
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.IngatlanTest.WhenReadingByID_IngatlanReturned(System.Int32)">
+            <summary>
+            WhenReadingByID_IngatlanReturned
+            </summary>
+            <param name="id">RealEstate ID</param>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.IngatlanTest.WhenNewIngatlanIsCalled_RepoVersionIsCalled">
+            <summary>
+            WhenNewIngatlanIsCalled_RepoVersionIsCalled
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.IngatlanTest.WhenDeleteIngatlanIsCalled_RepoVersionIsCalled">
+            <summary>
+            WhenDeleteIngatlanIsCalled_RepoVersionIsCalled
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.IngatlanTest.Dispose">
+            <summary>
+            disposing operations
+            </summary>
+        </member>
+        <member name="T:RealEstate.Logic.Tests.NonCrudTest">
+            <summary>
+            Non-CRUD operation tests
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.NonCrudTest.Setup">
+            <summary>
+            setting up test
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.NonCrudTest.WhenReadingHighValueAggreementOwners_GivesBackCorrectNumOfThem">
+            <summary>
+            WhenReadingHighValueAggreementOwners_GivesBackCorrectNumOfThem
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.NonCrudTest.WhenReadingClientsWithContractionBefore2017_GivesBackCorrectNumOfThem">
+            <summary>
+            WhenReadingClientsWithContractionBefore2017_GivesBackCorrectNumOfThem
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.NonCrudTest.WhenemptyRepo_ReturnsNoClients">
+            <summary>
+            WhenemptyRepo_ReturnsNoClients
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.NonCrudTest.WhenReadingHowManyEstatesRented_GivesBackCorrectNumOfThem">
+            <summary>
+            WhenReadingHowManyEstatesRented_GivesBackCorrectNumOfThem
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.NonCrudTest.Dispose">
+            <summary>
+            disposing realestateModel
+            </summary>
+        </member>
+        <member name="T:RealEstate.Logic.Tests.SzerzodesTest">
+            <summary>
+            Aggrement repo tests
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.SzerzodesTest.Setup">
+            <summary>
+            Setting up Mock repo
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.SzerzodesTest.WhenReadingSzerzodes_AllOfThemReturned">
+            <summary>
+            Testing the reading operation.
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.SzerzodesTest.WhenReadingByID_UgyfelReturned(System.Int32)">
+            <summary>
+            Testing reading by ID operation.
+            </summary>
+            <param name="id">Client ID</param>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.SzerzodesTest.WhenNewUgyfelIsCalled_RepoVersionIsCalled">
+            <summary>
+            Testing insertion operation.
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.SzerzodesTest.WhenDeleteSzerzodesIsCalled_RepoVersionIsCalled">
+            <summary>
+            Testing delition operation
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.SzerzodesTest.Dispose">
+            <summary>
+            disposing operations
+            </summary>
+        </member>
+        <member name="T:RealEstate.Logic.Tests.TulajdonosTest">
+            <summary>
+            Testing owners
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.TulajdonosTest.Setup">
+            <summary>
+            setting up tests
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.TulajdonosTest.WhenReadingIngatlanok_AllOfThemReturned">
+            <summary>
+            WhenReadingIngatlanok_AllOfThemReturned
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.TulajdonosTest.WhenReadingByID_TulajdonosReturned(System.Int32)">
+            <summary>
+            WhenReadingByID_TulajdonosReturned
+            </summary>
+            <param name="id">Owner ID</param>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.TulajdonosTest.WhenNewTulajdonosIsCalled_RepoVersionIsCalled">
+            <summary>
+            WhenNewTulajdonosIsCalled_RepoVersionIsCalled
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.TulajdonosTest.WhenDeleteTulajdonosIsCalled_RepoVersionIsCalled">
+            <summary>
+            WhenDeleteTulajdonosIsCalled_RepoVersionIsCalled
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.TulajdonosTest.Dispose">
+            <summary>
+            disposing realestateModel
+            </summary>
+        </member>
+        <member name="T:RealEstate.Logic.Tests.UgyfelTest">
+            <summary>
+            Testing Client repo
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.UgyfelTest.Setup">
+            <summary>
+            Setup of mock repo
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.UgyfelTest.WhenReadingUgyfel_AllOfThemReturned">
+            <summary>
+            testing read operation
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.UgyfelTest.WhenReadingByID_UgyfelReturned(System.Int32)">
+            <summary>
+            testing read by id operation
+            </summary>
+            <param name="id">Client id</param>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.UgyfelTest.WhenNewUgyfelIsCalled_RepoVersionIsCalled">
+            <summary>
+            testing insert operation
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.UgyfelTest.WhenDeleteUgyfelIsCalled_RepoVersionIsCalled">
+            <summary>
+            testing delete operation
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Tests.UgyfelTest.Dispose">
+            <summary>
+            disposing operations
+            </summary>
+        </member>
+    </members>
+</doc>

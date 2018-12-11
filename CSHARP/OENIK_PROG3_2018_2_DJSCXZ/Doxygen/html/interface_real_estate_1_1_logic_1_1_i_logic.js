@@ -1,0 +1,26 @@
+var interface_real_estate_1_1_logic_1_1_i_logic =
+[
+    [ "DeleteIngatlan", "interface_real_estate_1_1_logic_1_1_i_logic.html#a3052edc282d1c15c0d61b39b8cf9ac1c", null ],
+    [ "DeleteSzerzodes", "interface_real_estate_1_1_logic_1_1_i_logic.html#adb0cd6ca4a5e999fc5100a1fbcab228a", null ],
+    [ "DeleteTulajdonos", "interface_real_estate_1_1_logic_1_1_i_logic.html#a459b3dac9ad4dcb09b02382ba59cb475", null ],
+    [ "DeleteUgyfel", "interface_real_estate_1_1_logic_1_1_i_logic.html#ad3444eda0e837b0511d87207db0b4eba", null ],
+    [ "HanyUgyfelVett2010elott", "interface_real_estate_1_1_logic_1_1_i_logic.html#a3fbef2c36f9e2a06e812e5bff49faf1f", null ],
+    [ "IngatlanokBerbeadvaAbc", "interface_real_estate_1_1_logic_1_1_i_logic.html#a960237415a3df9d3f49b1c9992cf0364", null ],
+    [ "IngatlanokTulajKeruletSzerint", "interface_real_estate_1_1_logic_1_1_i_logic.html#ac6e3d448b689563a3c3c38c85fcf715a", null ],
+    [ "NewIngatlan", "interface_real_estate_1_1_logic_1_1_i_logic.html#ab0f71ef86ddabaa557d7d265cdef2575", null ],
+    [ "NewSzerzodes", "interface_real_estate_1_1_logic_1_1_i_logic.html#a63e48718c0f3b67c1c79fa243c4aa927", null ],
+    [ "NewTulajdonos", "interface_real_estate_1_1_logic_1_1_i_logic.html#a4f21a3e1add03958c93e1d2968bcc904", null ],
+    [ "NewUgyfel", "interface_real_estate_1_1_logic_1_1_i_logic.html#ab081e49815f1d3ab82726ef0f9c25fd5", null ],
+    [ "ReadIngatlanByID", "interface_real_estate_1_1_logic_1_1_i_logic.html#a537c181bd91f8c2964c976622439f528", null ],
+    [ "ReadIngatlanok", "interface_real_estate_1_1_logic_1_1_i_logic.html#abbdfc9d4bbba96ee5fe621bd13db0b2b", null ],
+    [ "ReadSzerzodesByID", "interface_real_estate_1_1_logic_1_1_i_logic.html#a75613bca8b706d12b40f3247aaaf6a7f", null ],
+    [ "ReadSzerzodesek", "interface_real_estate_1_1_logic_1_1_i_logic.html#ae4c00eab9e066c87db63234ec06b92ea", null ],
+    [ "ReadTulajdonosByID", "interface_real_estate_1_1_logic_1_1_i_logic.html#a92dc63f25a78acceb5c0f610d376dcd9", null ],
+    [ "ReadTulajdonosok", "interface_real_estate_1_1_logic_1_1_i_logic.html#ad1f43c07ea4382ec184f5baa03ea2954", null ],
+    [ "ReadUgyfelByID", "interface_real_estate_1_1_logic_1_1_i_logic.html#a812e90b75ce3cd667e4cccdc088c465f", null ],
+    [ "ReadUgyfelek", "interface_real_estate_1_1_logic_1_1_i_logic.html#a4566347b2e1d8a86c394e03569ff3b1f", null ],
+    [ "UpdateIngatlan", "interface_real_estate_1_1_logic_1_1_i_logic.html#ae79e21e7fba27349390d53e0076a0d08", null ],
+    [ "UpdateSzerzodes", "interface_real_estate_1_1_logic_1_1_i_logic.html#ab6c6954d090147c87b04edcd1b77a524", null ],
+    [ "UpdateTulajdonos", "interface_real_estate_1_1_logic_1_1_i_logic.html#a132118430b06d86ba0d0139533350a93", null ],
+    [ "UpdateUgyfel", "interface_real_estate_1_1_logic_1_1_i_logic.html#abb69c6d1831388e8dd46c37a6f7a0976", null ]
+];

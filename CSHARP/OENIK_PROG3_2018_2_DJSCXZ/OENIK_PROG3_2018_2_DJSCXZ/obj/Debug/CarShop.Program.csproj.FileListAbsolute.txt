@@ -1,0 +1,17 @@
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\bin\Debug\OENIK_PROG3_2018_2_DJSCXZ.exe.config
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\bin\Debug\OENIK_PROG3_2018_2_DJSCXZ.exe
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\bin\Debug\OENIK_PROG3_2018_2_DJSCXZ.pdb
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\bin\Debug\Castle.Core.dll
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\bin\Debug\Moq.dll
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\bin\Debug\System.ValueTuple.dll
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\bin\Debug\Castle.Core.xml
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\bin\Debug\Moq.pdb
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\bin\Debug\Moq.xml
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\bin\Debug\System.Threading.Tasks.Extensions.xml
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\bin\Debug\System.ValueTuple.xml
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\obj\Debug\CarShop.Program.csprojAssemblyReference.cache
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\obj\Debug\CarShop.Program.csproj.CoreCompileInputs.cache
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\obj\Debug\CarShop.Program.csproj.CopyComplete
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\obj\Debug\OENIK_PROG3_2018_2_DJSCXZ.exe
+D:\documents\oenik_prog3_2018_2_djscxz\CSHARP\OENIK_PROG3_2018_2_DJSCXZ\OENIK_PROG3_2018_2_DJSCXZ\obj\Debug\OENIK_PROG3_2018_2_DJSCXZ.pdb

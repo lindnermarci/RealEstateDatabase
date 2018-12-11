@@ -1,0 +1,326 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RealEstate.Logic</name>
+    </assembly>
+    <members>
+        <member name="T:RealEstate.Logic.ILogic">
+            <summary>
+            Business logic operations.
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.NewIngatlan(System.Int32,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Creates new Real Estate.
+            </summary>
+            <param name="ing_Id">Real Estate ID</param>
+            <param name="cim">Real Estate address</param>
+            <param name="tipus">Real Estate type</param>
+            <param name="alapterulet">Real Estate size</param>
+            <param name="szobaDb">Real Estate room count</param>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.NewTulajdonos(System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>
+            Creates new Owner
+            </summary>
+            <param name="tul_Id">ID</param>
+            <param name="nev">Name</param>
+            <param name="cim">Address</param>
+            <param name="mobilszam">Phone num</param>
+            <param name="email">Email</param>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.NewUgyfel(System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>
+            Creates new Clent
+            </summary>
+            <param name="ugyfel_Id">ID</param>
+            <param name="nev">Name</param>
+            <param name="cim">Address</param>
+            <param name="mobilszam">Phone num</param>
+            <param name="email">Email</param>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.NewSzerzodes(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.DateTime)">
+            <summary>
+            Creates new Agreement
+            </summary>
+            <param name="szerzodes_Id">Szerzodes's ID</param>
+            <param name="ing_Id">Real Estate's ID</param>
+            <param name="ugyfel_Id">Ugyfel's ID</param>
+            <param name="tipus">Type</param>
+            <param name="ar">Price</param>
+            <param name="datum">Date</param>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.ReadIngatlanok">
+            <summary>
+            Reads allReal Estates
+            </summary>
+            <returns>All Real Estates</returns>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.ReadTulajdonosok">
+            <summary>
+            Reads all Owners
+            </summary>
+            <returns>All Owners</returns>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.ReadUgyfelek">
+            <summary>
+            Reads all Clents
+            </summary>
+            <returns>All Clients</returns>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.ReadSzerzodesek">
+            <summary>
+            Reads all Agreementes
+            </summary>
+            <returns>All Agreementes</returns>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.ReadIngatlanById(System.Int32)">
+            <summary>
+            Selects Real Estate by ID
+            </summary>
+            <param name="id">Real Estate ID</param>
+            <returns>Selected Real Estate</returns>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.ReadUgyfelById(System.Int32)">
+            <summary>
+            Selects Clent by ID
+            </summary>
+            <param name="id">Ugyfel ID</param>
+            <returns>Selected Client</returns>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.ReadTulajdonosById(System.Int32)">
+            <summary>
+            Selects Owner by ID
+            </summary>
+            <param name="id">Owner ID</param>
+            <returns>Selected Owner</returns>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.ReadSzerzodesById(System.Int32)">
+            <summary>
+            Selects Agreement by ID
+            </summary>
+            <param name="id">Szerzodes ID</param>
+            <returns>Selected Real Estate</returns>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.UpdateIngatlan(System.Int32,System.String,System.String,System.Int32,System.Int32)">
+            <summary>
+            Updates Real Estate
+            </summary>
+            <param name="ing_Id">ID</param>
+            <param name="ujcim">Addr</param>
+            <param name="ujtipus">Type</param>
+            <param name="ujalapterulet">Size</param>
+            <param name="ujszobadb">RoomCount</param>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.UpdateTulajdonos(System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>
+            Updates Owner
+            </summary>
+            <param name="tul_Id">ID</param>
+            <param name="ujnev">Name</param>
+            <param name="ujcim">Addr</param>
+            <param name="ujmobilszam">Mobile num</param>
+            <param name="ujemail">Email</param>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.UpdateUgyfel(System.Int32,System.String,System.String,System.String,System.String)">
+            <summary>
+            Updates Client
+            </summary>
+            <param name="ugyfel_Id">ID</param>
+            <param name="ujnev">Name</param>
+            <param name="ujcim">Addr</param>
+            <param name="ujmobilszam">Mobile</param>
+            <param name="ujemail">Email</param>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.UpdateSzerzodes(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.DateTime)">
+            <summary>
+            Updates Agreement
+            </summary>
+            <param name="szerzodes_Id">Szerzodes ID</param>
+            <param name="ujing_Id">new Real Estate ID</param>
+            <param name="ujugyfel_Id">new Client ID</param>
+            <param name="ujtipus">new type</param>
+            <param name="ujar">new price</param>
+            <param name="ujdatum">new date</param>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.DeleteIngatlan(System.Int32)">
+            <summary>
+            Deletes a select Real Estate
+            </summary>
+            <param name="ing_Id">ID</param>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.DeleteTulajdonos(System.Int32)">
+            <summary>
+            Deletes a select Tulakdonos
+            </summary>
+            <param name="tul_Id">Owner ID</param>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.DeleteUgyfel(System.Int32)">
+            <summary>
+            Deletes a select Client
+            </summary>
+            <param name="ugyfel_Id">Ugyfel ID</param>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.DeleteSzerzodes(System.Int32)">
+            <summary>
+            Deletes a select Agreement
+            </summary>
+            <param name="szerzodes_Id">Szerzodes ID</param>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.HanyIngatlanBerbe">
+            <summary>
+            number of Real estates rented
+            </summary>
+            <returns>returns number of Real estates rented</returns>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.NagyErtekuSzerzodestKotottKiadasraTulajdonosok">
+            <summary>
+            big deals
+            </summary>
+            <returns>big value deals</returns>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.Ugyfelek2017ElottSzerzodott">
+            <summary>
+            after 2017 agreement
+            </summary>
+            <returns>clients after 2017</returns>
+        </member>
+        <member name="M:RealEstate.Logic.ILogic.Arajanlatkeres(System.Int32)">
+            <summary>
+            Gives a price offer
+            </summary>
+            <param name="ingId">RealEstate ID</param>
+            <returns>Returns an XML with 5 clients and prices</returns>
+        </member>
+        <member name="T:RealEstate.Logic.Muveletek">
+            <summary>
+            The operations available from console
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:RealEstate.Logic.Muveletek"/> class.
+            Default Constructor
+            </summary>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.#ctor(RealEstate.Repository.IRepository{RealEstate.Data.Ingatlan})">
+            <summary>
+            Initializes a new instance of the <see cref="T:RealEstate.Logic.Muveletek"/> class.
+            constructor
+            </summary>
+            <param name="repo">Repository</param>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.#ctor(RealEstate.Repository.IRepository{RealEstate.Data.Tulajdonos})">
+            <summary>
+            Initializes a new instance of the <see cref="T:RealEstate.Logic.Muveletek"/> class.
+            constructor
+            </summary>
+            <param name="repo">Repository</param>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.#ctor(RealEstate.Repository.IRepository{RealEstate.Data.Ugyfel})">
+            <summary>
+            Initializes a new instance of the <see cref="T:RealEstate.Logic.Muveletek"/> class.
+            constructor
+            </summary>
+            <param name="repo">Repository</param>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.#ctor(RealEstate.Repository.IRepository{RealEstate.Data.Szerzodes})">
+            <summary>
+            Initializes a new instance of the <see cref="T:RealEstate.Logic.Muveletek"/> class.
+            constructor
+            </summary>
+            <param name="repo">Repository</param>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.#ctor(RealEstate.Repository.IRepository{RealEstate.Data.Ingatlan},RealEstate.Repository.IRepository{RealEstate.Data.Tulajdonos},RealEstate.Repository.IRepository{RealEstate.Data.Ugyfel},RealEstate.Repository.IRepository{RealEstate.Data.Szerzodes})">
+            <summary>
+            Initializes a new instance of the <see cref="T:RealEstate.Logic.Muveletek"/> class.
+            constructor
+            </summary>
+            <param name="ir">Real estate repo</param>
+            <param name="tr">Owner repo</param>
+            <param name="ur">Client repo</param>
+            <param name="szr">Agreement repo</param>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.DeleteIngatlan(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.DeleteTulajdonos(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.DeleteUgyfel(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.DeleteSzerzodes(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.NewIngatlan(System.Int32,System.String,System.String,System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.NewTulajdonos(System.Int32,System.String,System.String,System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.NewUgyfel(System.Int32,System.String,System.String,System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.NewSzerzodes(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.DateTime)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.ReadIngatlanok">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.ReadTulajdonosok">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.ReadUgyfelek">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.ReadSzerzodesek">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.ReadIngatlanById(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.ReadTulajdonosById(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.ReadUgyfelById(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.ReadSzerzodesById(System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.UpdateIngatlan(System.Int32,System.String,System.String,System.Int32,System.Int32)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.UpdateTulajdonos(System.Int32,System.String,System.String,System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.UpdateUgyfel(System.Int32,System.String,System.String,System.String,System.String)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.UpdateSzerzodes(System.Int32,System.Int32,System.Int32,System.String,System.Int32,System.DateTime)">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.HanyIngatlanBerbe">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.NagyErtekuSzerzodestKotottKiadasraTulajdonosok">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.Ugyfelek2017ElottSzerzodott">
+            <inheritdoc/>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.Arajanlatkeres(System.Int32)">
+            <summary>
+            Gives a price offer
+            </summary>
+            <param name="ingId">RealEstate ID</param>
+            <returns>Returns an XML with 5 clients and prices</returns>
+        </member>
+        <member name="M:RealEstate.Logic.Muveletek.Dispose">
+            <summary>
+            disposing
+            </summary>
+        </member>
+    </members>
+</doc>
