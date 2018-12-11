@@ -1,4 +1,4 @@
-Real Estate Adatbázis projekt. A az adatbázisban 3 tábla és azok kapcsolói találhatóak. Ezek: Ingatlan, Ügyfél, Tulajdonos, Szerződés, Tulajdonol.
+Real Estate Adatbázis projekt .NET keretrendszerben. A az adatbázisban 3 tábla és azok kapcsolói találhatóak. Ezek: Ingatlan, Ügyfél, Tulajdonos, Szerződés, Tulajdonol.
 Funkciólista:
 Márkák listázása / hozzáadása / módosítása / törlése
 - Ingatlanok listázása / hozzáadása / módosítása / törlése
